@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnansiDB</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      max-width: 800px;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-top: 50px;
+    }
+
+    .photo {
+      flex: 1;
+      text-align: center;
+    }
+
+    .photo img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+
+    .description {
+      flex: 2;
+      text-align: center;
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="photo">
+      <img src="https://via.placeholder.com/150" alt="Sua Foto">
+    </div>
+    <div class="description">
+      <h1>Descrição Pessoal</h1>
+      <p>Sou um desenvolvedor focado em soluções modernas e escaláveis. Meu trabalho atual envolve a criação de sistemas inovadores e altamente eficientes para diversas necessidades de negócio.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>AnansiDB</p>
+  </footer>
+
+  <script>
+    // Função para simular o recebimento de uma requisição e mostrar uma mensagem de confirmação
+    function receberRequest() {
+      alert("Requisição recebida com sucesso!");
+    }
+
+    // Simulação: Chamar a função de requisição após um tempo para testar
+    setTimeout(receberRequest, 2000); // Simula uma requisição recebida após 2 segundos
+  </script>
+
+</body>
+</html>
